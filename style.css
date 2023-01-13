@@ -1,0 +1,106 @@
+#legfelso{
+    color: yellow;
+    text-align: center;
+    width: 100%;
+}
+
+.feher{
+    width: auto;
+}
+
+.bentebb50{
+    position:relative;
+    left: 50px;
+    color: blue;
+    letter-spacing: 8px;
+}
+
+.bentebb100{
+    position: relative;
+    left: 100px;
+}
+
+nav{
+    background-image: url(menu_hatter.png);
+}
+
+main{
+    width: 70%;
+    float: left;
+}
+
+#futogep{
+    float: right;
+}
+
+h4{
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+li{
+    display: inline;
+}
+
+#linkek{
+    text-align: center;
+}
+
+body{
+    background-color: darkgrey;
+}
+
+.wrapper {
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffffff;
+    height: 650px;
+}
+
+header{
+    background-image: url(kek_eg.jpg);
+}
+
+h1{
+    text-align: center;
+    min-width: 100%;
+}
+
+
+
+.link:hover{
+    color:#ffffff
+}
+
+.link:link{
+    color:#ffffff
+}
+
+.link:active{
+    color:#ffffff
+}
+
+.link:visited{
+    color:#ffffff
+}
+
+.textinput{
+    width: 75%;
+}
+
+.inputmezo{
+    padding: 10px;
+}
+
+#masodiklista{
+    list-style: circle;
+}
+
+.paddingharmadik{
+    padding-bottom: 25px;
+}
+
+td{
+    width: fit-content;
+}

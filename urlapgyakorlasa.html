@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap gyakorlása</title>
+    <link rel="stylesheet" type="text/css" href="stilus.css">
+</head>
+<body>
+    <div id="wrapper">
+    <form>
+        <h1 class="kozepre">Regisztráció</h1>
+        <fieldset>
+            <legend class="legend">Bejelentkezési adatok</legend>
+            <div>
+            <label>Felhasználónév</label><br>
+            <input name="username" type="text" value="" class="input100">
+            </div>
+            <div>
+            <label class="bal50">Jelszó:</label><br>
+            <input name="password" type="pwd" value="" class="bal50">
+            </div>
+            <div>
+            <label class="jobb50">Jelszó megerősítése:</label><br>
+            <input name="password" type="pwd" value="" class="bal50">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend class="legend">Személyes adatok</legend>
+            <div class="bal50">
+            <label>Vezetéknév:</label><br>
+            <input name="vnev" type="text" value="" placeholder="Vezetéknév"><br>
+            </div>
+            <div class="jobb50">
+            <label>Keresztnév:</label><br>
+            <input name="knev" type="text" value="" placeholder="Keresztnév"><br>
+            </div>
+            <div class="bal50">
+            <label>Email-cím:</label><br>
+            <input name="email" type="email" value="" placeholder="user@domain.com">
+            </div>
+            <div class="jobb50">
+            <label>Telefonszám:</label><br>
+            <input name="tel" type="tel" value="" placeholder="+3601/2345678">
+            </div>
+            <div class="bal50">
+            <label>Születési hely:</label><br>
+            <input name="szulhely" type="text" value="" placeholder="Születési hely">
+            </div>
+            <div class="jobb50">
+            <label>Születési dátum:</label><br>
+            <input name="szuldatum" type="date">
+            </div>
+            <div class="bal50">
+            <label>Nemed:</label>
+            <input name="nem" type="radio" id="ferfi"><label for="ferfi">Férfi</label>
+            <input name="nem" type="radio" id="no"><label for="no">Nő</label>
+            <input name="nem" type="radio" id="egyeb"><label for="egyeb">Egyéb</label> 
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Egyéb adatok</legend>
+            <div class="ketszazotvensortav">
+            <input name="hirlevel" type="checkbox" checked>
+            <label>Kérek hírlevelet</label><br>
+            <label>Érdeklődési körök (Kérem jelöljön meg legalább hármat!)</label><br>
+            </div>
+            <div class="erdeklodesikorbal50">
+                <input name="erdeklodesikorok" type="checkbox"><label>Háztartási kisgépek</label><br>
+                <input name="erdeklodesikorok" type="checkbox"><label>Háztartási nagygépek</label><br>
+                <input name="erdeklodesikorok" type="checkbox"><label>TV és szórakozás</label><br>
+                <input name="erdeklodesikorok" type="checkbox"><label>Barkács, Kert</label><br>
+                <input name="erdeklodesikorok" type="checkbox"><label>Szépségápolás</label><br>
+            </div>
+            <div class="erdeklodesikorjobb50">
+                <input name="erdeklodesikorok" type="checkbox"><label>Számítástechnika</label><br>
+                <input name="erdeklodesikorok" type="checkbox"><label>Telefon, tablet, laptop</label><br>
+                <input name="erdeklodesikorok" type="checkbox"><label>Baba, Mama, Játékok</label><br>
+                <input name="erdeklodesikorok" type="checkbox"><label>Divat, ékszerek</label><br>
+                <input name="erdeklodesikorok" type="checkbox"><label></label>Sport<br>
+            </div>
+            <div class="jobbra">
+                <input name="reset" type="reset" placeholder="Adatok törlése">
+                <input name="submit" type="submit" placeholder="Regisztráció">
+            </div>
+
+        </fieldset>
+    </form>
+    </div>
+</body>
+</html>
